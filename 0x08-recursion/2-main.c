@@ -9,11 +9,9 @@
 
 int main(void)
 {
-	char *s0 = "Anne Cognet";
-	char *s1 = "Asaia Palacios";
+	int n;
 
-	printf("%s, %s\n", s0, s1);
-	set_string(&s1, s0);
-	printf("%s, %s\n", s0, s1);
+	n = _strlen_recursion("Corbin Coleman");
+	printf("%d\n", n);
 	return (0);
 }
